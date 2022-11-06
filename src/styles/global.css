@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	--base-size: 16;
+
+	--background: rgb(14, 137, 84);
+	--foreground: rgb(215, 251, 242);
+
+	--background-opaque: rgba(9, 148, 88, 1);
+
+
+	--link: rgb(248, 248, 250);
+	--link-visited: rgba(140, 250, 250, 0.559);
+
+	--white: rgb(255, 255, 255);
+	--black: rgb(0, 0, 0);
+
+	--shade-400: rgb(62, 62, 62);
+	--shade-500: rgb(124, 124, 124);
+	--shade-600: rgb(135, 138, 140);
+	--shade-700: rgb(173, 178, 181);
+	--shade-800: rgb(230, 230, 230);
+	--shade-900: rgb(240, 240, 240);
+
+	--primary-500: rgb(0, 8, 2);
+
+	--shadow: rgba(0, 0, 0, 0.15);
+	--box-shadow: 0 2px 5px var(--shadow);
+
+	--border-radius-s: calc(8 / var(--base-size) * 1rem);
+	/* 8px; */
+	--border-radius-m: calc(20 / var(--base-size) * 1rem);
+	/* 20px; */
+	--border-radius-l: calc(40 / var(--base-size) * 1rem);
+	/* 40px; */
+
+	--spacing-xs: calc(4 / var(--base-size) * 1rem);
+	/* 4px; */
+	--spacing-s: calc(6 / var(--base-size) * 1rem);
+	/* 6px; */
+	--spacing-sm: calc(8 / var(--base-size) * 1rem);
+	/* 8px; */
+	--spacing-m: calc(12 / var(--base-size) * 1rem);
+	/* 12px; */
+	--spacing-l: calc(18 / var(--base-size) * 1rem);
+	/* 18px; */
+	--spacing-xl: calc(30 / var(--base-size) * 1rem);
+	/* 30px; */
+	--spacing-xxl: calc(40 / var(--base-size) * 1rem);
+	/* 40px; */
+	--spacing-xxxl: calc(80 / var(--base-size) * 1rem);
+	/* 80px; */
+
+	--font-size-s: calc(12 / var(--base-size) * 1rem);
+	--font-size-m: calc(14 / var(--base-size) * 1rem);
+	--font-size-l: calc(16 / var(--base-size) * 1rem);
+	--font-size-xl: calc(20 / var(--base-size) * 1rem);
+
+	--font-family: 'Poppins', sans-serif;
+
+	--focus-outline: 5px auto rgb(77, 144, 254);
+
+	font-size: calc(var(--base-size, 16) * 1px);
+	font-family: var(--font-family);
+	background: var(--background);
+	color: var(--foreground);
+	touch-action: manipulation;
+}
+
+body {
+	margin: 0;
+	line-height: 1.2;
+	overscroll-behavior: contain;
+	-webkit-overflow-scrolling: touch;
+	scroll-behavior: smooth;
+}
+
+#snack-container {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: var(--spacing-m);
+	z-index: 12345678;
+}
+
+#snack-container> :not(:last-child) {
+	margin: 0 0 var(--spacing-s);
+}
