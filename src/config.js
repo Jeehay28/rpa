@@ -27,14 +27,14 @@ export const LAZY_IMG_INTERSECTION_OPTIONS = {
 	threshold: Array(10).fill(0).map((_, i) => i / 100)
 };
 
-export function getShareUrl () {
-	const {origin, pathname} = location;
+export function getShareUrl() {
+	const { origin, pathname } = location;
 	const cleanedPathname = pathname.length > 0 ? pathname[pathname.length - 1] === "/" ? pathname.slice(0, pathname.length - 1) : pathname : "";
 	return `${origin}${cleanedPathname}`
 }
 
 export const getShareConfig = () => ({
-	title: "Web Skills",
-	text: "A visual overview of useful skills to learn as a web developer",
+	title: "RPA",
+	text: "A visual overview of RPA using web-skills",
 	url: getShareUrl()
 });
