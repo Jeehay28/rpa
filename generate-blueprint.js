@@ -143,13 +143,13 @@ function generateCollectionsMarkdown(collections) {
 const collectionsMarkdown = generateCollectionsMarkdown(collections);
 
 // Create the blueprint file.
-writeFileSync(FILE_NAME, `<h1 align="center">Web Skills</h1>
+writeFileSync(FILE_NAME, `<h1 align="center">RPA</h1>
 <p align="center">
 	Web Skills is a visual overview of useful skills to learn as a web developer. Go to <a href="https://andreasbm.github.io/web-skills" target="_blank" aria-label="Link to Web Skills">https://andreasbm.github.io/web-skills</a> to check out the visual overview or scroll through this readme to get the overview <a href="#-fundamentals" target="_blank" aria-label="Link to list of skills">as a list</a>. If you like the project you are very welcome to <a href="https://github.com/andreasbm/web-skills/stargazers" aria-label="Become stargazer link">become a stargazer 🤩</a>
 </p> 
 <p align="center">
-	<a href="http://andreasbm.github.io/web-skills" target="_blank">
-		<img src="https://raw.githubusercontent.com/andreasbm/web-skills/master/demo.gif" alt="Web Skills Demo" width="800" />
+	<a href="https://jeehay28.github.io/RPA/" target="_blank">
+		<img src="www/demo.gif" alt="Web Skills Demo" width="800" />
 	</a>
 </p>
 <br />
