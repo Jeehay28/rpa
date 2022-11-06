@@ -1,22 +1,26 @@
 {
-	"short_name": "Web Skills",
-	"name": "Web Skills",
-	"description": "A visual overview of useful skills to learn as a web developer",
-	"start_url": "/web-skills/",
+	"short_name": "RPA",
+	"name": "RPA",
+	"description": "A visual overview of RPA using web-skills",
+	"start_url": "/RPA/",
 	"lang": "en-US",
 	"display": "standalone",
 	"background_color": "#0B0B19",
 	"theme_color": "#0B0B19",
 	"orientation": "portrait-primary",
-	"categories": ["productivity", "education", "utilities"],
+	"categories": [
+		"productivity",
+		"education",
+		"utilities"
+	],
 	"icons": [
 		{
-			"src": "www/icon-circle192x192.png",
+			"src": "www/favicon-32x32.png",
 			"type": "image/png",
 			"sizes": "192x192"
 		},
 		{
-			"src": "www/icon-circle512x512.png",
+			"src": "www/favicon-32x32.png",
 			"type": "image/png",
 			"sizes": "512x512"
 		}
@@ -28,7 +32,7 @@
 			"type": "image/jpeg"
 		},
 		{
-			"src": "www/screenshot-2-1280x720.jpg",
+			"src": "screenshot-2-1280x720.jpg",
 			"sizes": "1280x720",
 			"type": "image/jpeg"
 		}
