@@ -110,7 +110,7 @@ This can lower the barrier to the use of automation in products that might not o
 
 
 
-## ➤ RPA Tools
+## ➤ UiPath
 ### UiPath
 - [ ] [UiPath](https://www.uipath.com/)
 - [ ] [YouTube](https://www.youtube.com/user/uipath)
