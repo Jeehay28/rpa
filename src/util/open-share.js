@@ -41,7 +41,8 @@ export async function openShare({ title, text, url }) {
 	const safeTitle = encodeURIComponent(title);
 	const safeText = encodeURIComponent(text);
 	const safeUrl = encodeURIComponent(url);
-	const img = `https://github.com/Jeehay28/RPA/blob/main/www/og-image.JPG`;
+	const img = `../../www/og-image1.jpg`;
+
 	const safeImg = encodeURIComponent(img);
 
 	const shareOptions = [
