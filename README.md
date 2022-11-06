@@ -95,7 +95,7 @@ This can lower the barrier to the use of automation in products that might not o
 - [ ] [Blue Prism](https://www.blueprism.com/)
 
 ### NICE
-- [ ] [Blue Prism](https://www.nice.com/products/automation)
+- [ ] [NICE](https://www.nice.com/products/automation)
 
 ### KOFAX
 - [ ] [KOFAX](https://www.kofax.com/)
